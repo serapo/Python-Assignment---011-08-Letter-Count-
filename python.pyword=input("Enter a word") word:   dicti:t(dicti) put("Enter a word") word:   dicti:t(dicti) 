@@ -1,0 +1,10 @@
+word=input("Enter a word")
+dicti={}
+for i in word:  
+   if i in dicti:
+      dicti[i] +=1
+   else:
+      dicti[i]=1   
+
+print(dicti) 
+   
